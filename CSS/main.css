@@ -1,26 +1,44 @@
+/* NAVBAR*/
+
+.navbar{
+    width: 100%;
+}
+
 .logo{
-    width: auto;
-    height: 200px;
+    width: 18.75rem;
+    height: 12.5rem;
 }
 
 .icon{
-    width: 50px;
-    height: 50px;
-    margin: 0 20px;
+    width: 3.125rem;
+    height: 3.125rem;
+    margin: 0 1.25rem;
 }
 
-.social-icons{
-    display: flex;
-    height: 100%;
-    justify-content: flex-end;
-    align-items: center;
+#login{
+    border-color: white;
 }
+
+/*BANNER*/
 
 .banner{
-    height: 500px;
     background: url("../ASSETS/clark-tibbs-oqStl2L5oxI-unsplash.jpg");
+    min-height: 60vh;
     background-size: cover;
     background-position: center;
+    position: relative;
+}
+
+@media (max-width: 768px){
+    .banner{
+        min-height: 30vh;
+    }
+}
+
+/*INFO PERSONAL Y PROFESIONAL*/
+
+#info{
+    background-color: rgb(33, 33, 33);
 }
 
 .imagen{
@@ -29,14 +47,63 @@
 }
 
 .imagen-perfil{
-    background-image: url("../ASSETS/Torres, Maximiliano.jpg");
+    background-image: url("../ASSETS/Torres\,\ Maximiliano\ 2.jpg");
     /* cambia estos dos valores para definir el tamaño de tu círculo */
-     height: 500px;
-     width: 500px;
+     height: 31.25rem;
+     width: 31.25rem;
      /* los siguientes valores son independientes del tamaño del círculo */
-     background-repeat: no-repeat;
-     background-position: 50%;
+     background-size: cover;
      border-radius: 50%;
-     background-size: 100% auto;
+     /*background-size: 100% auto;*/
      border: #000 solid 5px; 
+}
+
+@media (max-width: 768px){
+    .imagen-perfil{
+        height: 15.625rem;
+        width: 15.625rem;
+    }
+}
+
+.info-container{
+    display: flex;
+    align-items: center;
+}
+
+.info-text{
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+}
+
+#name{
+    font-size: 3.125rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#profesion{
+    font-size: 2rem;
+}
+
+/*EXPERIENCIA*/
+
+#exp{
+    background-color: rgb(65, 61, 61);
+}
+
+#exp-title{
+    font-size:3.125rem;
+    font-weight: 700;
+}
+
+#amazon{
+    width: 22.688rem;
+    height: 6.484rem;
+}
+
+.exp-img{
+    display: flex;
+    justify-content: center;
 }
