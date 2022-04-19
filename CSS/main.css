@@ -98,6 +98,10 @@
     font-weight: 700;
 }
 
+.exp-title{
+    font-size: 2.50rem;
+}
+
 #amazon{
     width: 22.688rem;
     height: 6.484rem;
@@ -106,4 +110,46 @@
 .exp-img{
     display: flex;
     justify-content: center;
+}
+
+/*Educacion*/
+
+.edu-title{
+    font-size: 2.50rem;
+}
+
+#edu{
+    background-color: rgb(33, 33, 33);
+}
+
+#udemy{
+    width: 22.688rem;
+    height: 6.484rem;
+}
+
+#tel-img{
+    margin-top: 50px;
+}
+
+#arg-pro{
+    width: 22.688rem;
+    height: 13.484rem;
+}
+
+/*Skills*/
+
+#skills{
+    background-color: rgb(65, 61, 61);
+}
+
+.skill-title{
+    color:#fff;
+    margin: 1.24rem 0;
+    text-align: center;
+}
+
+/*Proyectos*/
+
+#proyectos{
+    background-color: rgb(33, 33, 33);
 }
